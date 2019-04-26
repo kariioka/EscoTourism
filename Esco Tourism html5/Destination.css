@@ -1,0 +1,203 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+display: block;}
+body {
+color: #666666;
+background-color: #f9f8f6;
+background-image: url(phil.jpg);
+background-position: center;
+font-family: Georgia, times, serif;
+line-height: 20px;
+margin: 0px;
+}
+.wrapper {
+zoom: 85%;
+width: 1500px;
+margin: 20px auto 20px auto;
+border: 2px solid #000000;
+background-color: floralwhite;
+}
+header {
+height: 220px;
+background-image: url(TITLE1.jpg);
+}
+/*  h1 for the spacing in header */
+h1 {
+text-indent: -9999px;
+width: 940px;
+height: 200px;
+margin: 0px 2px 0px 2px;
+}
+nav, footer {
+clear: both;
+color: #ffffff;
+background-color: BLACK;
+height: 30px;
+}
+nav ul {
+margin: 0px;
+padding: 5px 0px 5px 30px;
+text-align: center;
+}
+nav li {
+display: inline;
+margin-right: 40px;
+}
+nav li a {
+color: #ffffff;
+
+}
+nav li a:hover, nav li a.current {
+color: grey;
+}
+figure {
+width: 450px;
+padding: 20px 20px 20px 20px;
+border: 2px solid #000000;
+background-color: #ffffff;
+
+}
+/* top spots */
+.Top-spots section{
+width: 1100px;
+margin: 40px 0px 40px 40px;
+border: 2px solid #000000;
+background-color:LemonChiffon ;
+}
+.Top-spots figcaption {
+padding-right:10px; 
+height: 110px;
+color:black;
+}
+/*reg7*/
+.Top-spots1  section{
+width: 1100px;
+margin: 40px 0px 40px 40px;
+padding-bottom: 8px;
+border: 2px solid #000000;
+background-color:LemonChiffon ;
+}
+
+.Top-spots1 figcaption {
+padding-right:10px;
+margin-top: -5px;
+height: 110px;
+color:black;
+
+}
+.Top-spots-extre section{
+width: 1100px;
+margin: 40px 0px 40px 40px;
+border: 2px solid #000000;
+background-color:LemonChiffon ;
+}
+.Top-spots-extre figcaption {
+padding-right:10px; 
+height: 120px;
+color:black;
+}
+
+.Top-spots-food section{
+width: 1100px;
+margin: 40px 0px 40px 40px;
+border: 2px solid #000000;
+background-color:LemonChiffon ;
+}
+.Top-spots-food figcaption {
+padding-right:10px; 
+height: 120px;
+color:black;
+background-color:LemonChiffon ;
+}
+article {
+padding-right:10px; 
+border-right:2px solid #eeeeee;
+}
+
+figcaption, p{
+margin:0px 10 px 0px 10px;	
+text-align:justify;
+}
+
+/* side */
+aside ul li {
+list-style-type: none;
+}
+aside {
+background-color:Cornsilk    ;
+margin: 30px 0px 40px 0px;	
+width: 300px;
+text-align: center;
+float: left;
+padding: 0px 0px 0px 20px;
+}
+aside section a:hover {
+color: black;
+}
+a{
+color:grey;
+font-size: 23px;
+text-decoration: none;
+margin: 20px 0px 20px 0px;
+}
+/*label*/
+aside section label {
+display: block;
+padding: 10px;
+}
+aside section label:hover {
+color: #985d6a;
+background-color: #efefef;
+}
+label {
+color: Dodgerblue;
+font-size: 26px;
+margin: 15px 5px 20px 0px;
+text-decoration: none;
+}
+aside  h2 {
+color: Firebrick;
+font-size: 30px;
+margin-left: 32px;
+
+}
+.SPOTS {
+margin: 10px 0px 5px 5px;
+float:left;
+width: 1150px;
+}
+
+/* sulat sulat */
+h2 {
+font-size: 30px;
+margin: 40px 0px 10px 20px;
+color: Firebrick;
+font-weight: bold;
+text-align: center;
+}
+h3{
+font-size: 31px;
+margin: 20px 0px 10px 20px;
+color: Dodgerblue;
+font-weight: bold;
+text-align: center;
+}
+
+h4{
+text-align: center;
+font-size: 25px;
+margin: 20px 0px 10px 20px;
+color: black;
+font-weight: bold;
+}
+p{
+font-size: 20px;
+margin: 20px 0px 10px 20px;
+color: black;
+font-weight: normal;
+}
+
+footer {
+font-size: 16px;
+padding: 5px 0px 5px 30px;
+height: 20px;
+}

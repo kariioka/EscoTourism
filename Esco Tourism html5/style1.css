@@ -1,0 +1,170 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+display: block;}
+body {
+color: #666666;
+background-color: #f9f8f6;
+background-image: url(phil.jpg);
+background-position: center;
+font-family: Georgia, times, serif;
+line-height: 20px;
+margin: 0px;
+}
+.wrapper {
+width: 1500px;
+margin: 20px auto 20px auto;
+border: 2px solid #000000;
+background-color:Cornsilk ; 
+}
+header {
+height: 200px;
+background-image: url(TITLE1.jpg);
+}
+/*  h1 for the spacing in header */
+h1 {
+text-indent: -9999px;
+width: 940px;
+height: 200px;
+margin: 0px 2px 0px 2px;
+}
+nav, footer {
+clear: both;
+color: #ffffff;
+background-color: BLACK;
+height: 40px;
+}
+nav ul {
+margin: 0px;
+padding: 10px 0px 5px 30px;
+text-align: center;
+}
+nav li {
+display: inline;
+margin-right: 40px;
+}
+nav li a {
+color: #ffffff;
+
+}
+nav li a:hover, nav li a.current {	
+color: grey;
+}
+/*  section for the map */
+section.map {
+float: left;
+width: 1050px;
+}
+.border1 {
+border-right: 4px solid #eeeeee;
+
+}
+h2, h3, p {
+color: black;
+text-align: center;
+font-weight: normal;
+}
+hgroup {
+margin-top:40px;
+}
+hgroup p {
+font-size: 25px;
+text-align: justify;
+margin-left:20px;
+margin-right:20px;
+
+}
+hgroup h2 {
+color:Firebrick;
+font-size: 40px;
+padding-top:10px;
+}
+hgroup h3{
+color:Dodgerblue;
+}
+article figcaption {
+text-align: center;
+color:black ;
+}
+article{
+background-color: floralwhite; 
+}
+section .map figure img{ 
+z:-1; 
+}
+
+/*  button */
+.maptoggle{
+position:relative;
+}
+section .button1 img, .toggle .t1 p{
+Position:absolute;
+Bottom:490px;
+Left: 540px;
+}
+section .button2 img, .toggle .t2 p{
+Position:absolute;
+Bottom:260px;
+Left: 720px;
+}
+section .button3 img, .toggle .t3 p{
+Position:absolute;
+Bottom:220px;
+Left: 580px;
+}
+
+/*  section for the popular places */
+section li{
+
+list-style-type: none;
+}
+aside {
+width: 450px;
+text-align: center;
+float: left;
+padding: 40px 0px 0px 0px;
+}
+aside section a {
+
+display: block;
+padding: 10px;
+border-bottom: 1px solid #eeeeee;
+}
+aside section a:hover {
+color: #985d6a;
+background-color: #efefef;
+}
+a {
+color: Dodgerblue;
+font-size: 25px;
+margin: 20px 0px 40px 0px;
+text-decoration: none;
+}
+
+aside  h2 {
+color: Firebrick;
+font-size: 40px;
+margin: 20px 0px 40px 0px;
+}
+
+aside  p {
+color: grey;
+font-size: 25px;
+margin: 20px 0px 30px 0px;
+}
+.toggle p{
+font-size: 45px;
+margin: 20px 0px 40px 0px;
+text-decoration: none;
+}
+.toggle p:hover {
+color: #985d6a;
+}
+/*  section for the contact */
+.contact {
+border-top: 3px solid #eeeeee;
+margin: 170px 0px 20px 0px;
+}
+footer {
+font-size: 16px;
+padding: 5px 0px 5px 30px;
+height: 20px;
+}

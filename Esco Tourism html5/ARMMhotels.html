@@ -1,0 +1,113 @@
+<html>
+	<link rel="stylesheet" type="text/css" href="Destination1.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script>
+<head>
+<title>ESCO TOURISM</title>
+</head>
+<body>
+	<script>
+$(document).ready(function() {
+	$(".d1 label").click(function() {
+		$(".choice1 li").toggle("slow");
+	});
+	$(".d2 label").click(function() {
+		$(".choice2 li").toggle("slow");
+	});
+	$(".d3 label").click(function() {
+		$(".choice3 li").toggle("slow");
+	});
+	$(".d4 label").click(function() {
+		$(".choice4 li").toggle("slow");
+	});
+	$(".d5 label").click(function() {
+		$(".choice5 li").toggle("slow");
+	});
+});
+</script>
+<div class="wrapper">
+<header>
+<h1> ESCO TOURISM </h1>
+<nav>
+<ul>
+	<li><a href="home.html">Home</a></li>
+	<li><a href=""class="current">ARMM</a></li>
+	<li><a href="REG7.html">Region VII</li>
+	<li><a href="REG11.html">Region XI</a></li>
+</ul>
+</nav>
+</header>
+<section class = "SPOTS">
+<article>
+<h2>ARMM ( Autonomous Region in Muslim Mindanao)</h2>
+<h3>MAGUINDANAO</h3>
+<h3>Hotels & Inns</h3>
+ <div class = "hotels-inns">
+ <section>
+  <img src="estogan.png" alt="estogan" />
+  <h3>Estosan Garden Hotel  </h3>
+  <figcaption>Estosan Garden Hotel situated at the heart of the birthplace of Islam and Christianity in Mindanao, the City of Cotabato. It is the only Tagalog speaking city of the south and is the host of three (3) Regional Administrations: Region 12, Region ARMM, & the Southern Philippine Council for Peace and Development.
+  Cotabato City is multi-ethnic, multi- cultural with Muslims, Christians and Tribal Communities living in harmony.
+</figcaption>
+<p><b>Address:</b>Cotabato City, Maguindanao</p>
+<p><b>Phone:</b>(064) 421 6777</p>
+<button type="button" onclick="alert('----RESERVED----!!!')">Reserve Here</button>
+  </section>
+</div>
+</article>
+</section>
+<aside>
+<section>
+<h2>NAVIGATION</h2>
+<ul class = "main">
+<a href="REG7.html"><h2>RegionVII</h2></a>
+		<li class = "d1">
+			<label>Maguindanao</label>
+				<ul class = "choice1">
+				<li><a href="ARMMhotels.html">Hotels & Inns</a></li>
+				<li><a href="ARMMDestination.html">Tourist Spots</a></li>
+				</ul>
+		</li>
+		<li class= "d2">
+			<label>Lanao DelSur</label>
+				<ul class = "choice2">
+				<li><a href="ARMMhotels1.html">Hotels & Inns</a></li>
+				<li><a href="ARMMDestination1.html">Tourist Spots</a></li>
+				</ul>
+		</li>
+		<li class="d3">
+		<label>Sulu Province</label>
+				<ul class = "choice3">
+				<li><a href="ARMMhotels2.html">Hotels & Inns</a></li>
+				<li><a href="ARMMDestination2.html">Tourist Spots</a></li>
+				</ul>
+		</li>
+		<li class="d4">
+		<label>Tawi Tawi</label>
+				<ul class = "choice4">
+				<li><a href="ARMMhotels3.html">Hotels & Inns</a></li>
+				<li><a href="ARMMDestination3.html">Tourist Spots</a></li>
+				</ul>
+		</li>
+		<li class="d5">
+		<label>Basilan</label>
+				<ul class = "choice5">
+				<li><a href="ARMMhotels4.html">Hotels & Inns</a></li>
+				<li><a href="ARMMDestination4.html">Tourist Spots</a></li>
+				</ul>
+		</li>
+	</ul>
+</aside>
+</section>
+<script>
+$(".choice1 li").hide();
+$(".choice2 li").hide();
+$(".choice3 li").hide();
+$(".choice4 li").hide();
+$(".choice5 li").hide();
+</script>
+<footer>
+&copy; 2015 ESCO TOURISM
+</footer>
+</div>
+</body>
+</html>
